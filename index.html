@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="wrapper">
+
+    <header class="header">
+        <div class="header_box">
+            <div class="nav_box">
+                <h1 class="logo_name">SHOP <b class="logo_bakery">BAKERY</b></h1>
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_list-item"><a href="#about">Наші традиції</a></li>
+                        <li class="nav_list-item"><a href="#products">Шеф-кухарі</a></li>
+                        <li class="nav_list-item"><a href="#services">Формати</a></li>
+                        <li class="nav_list-item"><a href="#contact">Контакти</a></li>
+                    </ul>
+                </nav>
+                <button class="nav_button">Замовити дзвінок</button>
+            </div>
+
+            <div class="header_name-desc">
+                <p class="header_name-desc-item">Великий попит на ринку</p>
+                <p class="header_name-desc-item">Доступні за бюджетом формати</p>
+                <p class="header_name-desc-item">Досвідчена управлінська команда</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="newFormat">
+
+        <div class="newFormat_texts">
+            <h2 class="newFormat_main-text">Новий формат традицій</h2>
+            <p><b class="newFormat_shop-bakery">SHOP BAKERY</b> — це пекарня, яка взяла все найкраще, і зберегла смак
+                традиційної
+                випічки та натуральність інгредієнтів.</p>
+            <p>Ми працюємо як найвідоміші мережі —
+                <b class="newFormat_five-minute">5 хвилин і замовлення готове</b>.<br>
+                А ще у наших пекарень стильний дизайн
+                та висока якість обслуговування!
+            </p>
+        </div>
+
+        <div class="newFormat_images">
+            <img src="images/bakeryMan.png" alt="bakery-man with buns and bread" class="newFormat_image">
+        </div>
+
+    </section>
+
+    <section class="chefs">
+        <div class="chefs_main-name">
+
+        </div>
+
+        <hr class="hr">
+
+        <div class="chefs_cards">
+
+            <div class="chefs_card">
+
+                <img src="images/nastya.png" alt="chef Nastya" class="chefs_card-image">
+
+                <div class="chefs_desc">
+                    <h3 class="chefs_card-name">Настя</h3>
+                    <p class="chef_hello">Привіт, я Настя!</p>
+                    <p class="chefs_card-exp">Вже 10 років я втілюю у життя цікаві та смачні ідеї</p>
+                    <p class="chefs_card-make">Я випічу для вас найсмачніщі вироби!</p>
+                </div>
+
+            </div>
+
+            <div class="chefs_card">
+
+                <img src="images/vlad.png" alt="chef Vlad" class="chefs_card-image">
+
+                <div class="chefs_desc">
+
+                    <h3 class="chefs_card-name">Влад</h3>
+                    <p class="chef_hello">Привіт, я Влад!</p>
+                    <p class="chefs_card-exp">Мій кодитерський стаж вже 18 років.
+                        SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз
+                        з Вами через нашу випічку!</p>
+                    <p class="chefs_card-make">Я зроблю для вас унікальну начинку на будь який смак!</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="format">
+        <h2 class="format_headline">Формати</h2>
+        <div class="format_cards">
+            <img src="images/Arrow.svg" alt="arrow" class="format_arrow-left" id="leftArrow">
+            <div id="card1" class="format_card">
+                <img src="images/walrus.png" alt="walrus">
+            </div>
+
+            <div id="card2" class="format_card">
+                <img src="images/horseshoe.png" alt="walrus">
+            </div>
+
+            <div id="card3" class="format_card">
+                <img src="images/handlebar.png" alt="walrus">
+            </div>
+            <img src="images/Arrow.svg" alt="arrow" class="format_arrow-left" id="rightArrow">
+        </div>
+        <div class="format_dots">
+            <ul class="format_dots-list">
+                <li id="firstDot" class="format_dots-item">.</li>
+                <li id="secondDot" class="format_dots-item">.</li>
+                <li id="thirdDot" class="format_dots-item">.</li>
+                <li id="fourthDot" class="format_dots-item">.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="join">
+        <div class="join_form">
+            <h2 class="join_main-text">Приєднуйся до мережі пекарень</h2>
+            <p class="join_text-for-input">Заповни форму, щоб ми зв'язались з тобою!</p>
+
+            <form class="join_form">
+                <input type="text" placeholder="Ваше ім'я" class="join_input">
+                <input type="tel" placeholder="Ваш телефон" class="join_input">
+                <input type="email" placeholder="Ваш електронна пошта" class="join_input">
+                <button type="submit" class="join_button">Замовити дзвінок</button>
+            </form>
+
+            <p class="join_form-desc-text">Натискаючи на кнопку я погоджуюсь <a href="#">з політикою
+                    конфіденційності</a>
+            </p>
+        </div>
+
+        <div class="map">
+            <img class="map_img" src="images/map.png" alt="ubication of bakery">
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer_box">
+            <h2 class="footer_main-name">SHOP <b class="logo_bakery">BAKERY</b></h2>
+            <ul class="footer_list">
+                <li class="footer_list-item"><a href="#">Франшиза</a></li>
+                <li class="footer_list-item"><a href="#">Наші традиції</a></li>
+                <li class="footer_list-item"><a href="#">Формати</a></li>
+                <li class="footer_list-item"><a href="#contact">Контакти</a></li>
+            </ul>
+            <ul class="footer_list">
+                <li class="footer_list-item">+38 (099) 999-99-99</li>
+                <li class="footer_list-item">shopbakery@gmail.com</li>
+                <li class="footer_list-item-ubic">Україна, м. Київ,<br> вул. Січових Стрільців 54</li>
+                <li><img src="images/facebook.svg" alt="facebook"> <img src="images/instagram.svg" alt="instagram"></li>
+            </ul>
+            <div class="policy">
+                <a href="#">Політика конфіденційності</a>
+                <p>© 2022 Дані захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
